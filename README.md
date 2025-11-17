@@ -44,3 +44,25 @@ void main(){
   } 
   
 }
+void main() {
+ String kelime = "Merhaba";
+  for (int i = 0; i < kelime.length;i++){
+    print(kelime[i]);
+  }
+  print(kelime[2]);
+  
+  
+  
+  int tek = 0,cift = 0;
+  for(int i = 0;i < 1000; i++){
+    if (i % 2 == 0) {
+      cift++;
+    }
+      else{
+        tek++;
+      }
+  
+  }
+  print("tek sayısı$tek\n çift sayısı$cift");
+  
+}
